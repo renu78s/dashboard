@@ -1,0 +1,27 @@
+.container {
+  width: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  min-height: 100%;
+  padding: 50px 0 0 10px;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+@media (max-width: 1350px) {
+  .container {
+    width: 75px;
+    align-items: center;
+  }
+}
+@media (max-width: 1120px) {
+  .container {
+    width: 75px;
+    align-items: center;
+  }
+}

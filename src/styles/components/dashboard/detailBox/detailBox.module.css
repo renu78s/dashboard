@@ -1,0 +1,116 @@
+.container {
+  position: absolute;
+  bottom: -200px;
+  right: 90px;
+
+  width: 450px;
+  height: 340px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: var(--white, #fff);
+
+  /* Shadows/Gray Blue/5%/30b */
+  box-shadow: 0px 10px 30px 0px rgba(38, 51, 77, 0.05);
+}
+.part1 {
+  display: flex;
+  align-items: center;
+  padding-block: 25px;
+  padding-inline: 5px;
+}
+
+.center {
+  display: flex;
+  flex-wrap: wrap;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  margin-left: 35px;
+  flex-grow: 1;
+}
+.heading h4 {
+  color: var(--grey-blue-50, #4d5e80);
+
+  /* Bold 14 */
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 214.286% */
+  text-transform: capitalize;
+  margin-right: 20px;
+}
+/* .image {
+} */
+.part2 {
+  display: flex;
+  margin-left: 65px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.date_container {
+  display: flex;
+  width: 82px;
+  height: 45px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5px;
+  flex-shrink: 0;
+}
+.date_heading {
+  color: var(--grey-blue-70, #7d8fb3);
+
+  /* Black 12 */
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 20px; /* 166.667% */
+}
+.date {
+  color: var(--grey-blue-50, #4d5e80);
+
+  /* Black 12 */
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 20px; /* 166.667% */
+}
+.play {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 25px;
+  height: 30px;
+}
+.playImage {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+.playImg {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  right: 27px;
+  bottom: 15px;
+}
+.play_text {
+  color: var(--grey-blue-50, #4d5e80);
+
+  /* Black 12 */
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 20px; /* 166.667% */
+}
+@media (max-width: 600px) {
+  .container {
+    display: none;
+  }
+}

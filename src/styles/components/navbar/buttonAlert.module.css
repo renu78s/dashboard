@@ -1,0 +1,44 @@
+.notification {
+  position: relative;
+}
+
+.notification_dot_icon {
+  position: absolute;
+  bottom: 25px;
+  left: 30px;
+}
+.bg {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background: url('../../../assets/images/person1.png'),
+    lightgray 50% / cover no-repeat;
+  border-radius: 50px;
+  background-color: rgba(255, 102, 51, 0.3);
+}
+
+@media (max-width: 1350px) {
+  .notification_dot_icon {
+    bottom: 20px;
+    left: 20px;
+  }
+  .bg {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-size: 100%, 100%;
+  }
+}
+@media (max-width: 1120px) {
+  .notification_dot_icon {
+    bottom: 10px;
+    left: 15px;
+    width: 20px;
+  }
+  .bg {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-size: 100%, 100%;
+  }
+}

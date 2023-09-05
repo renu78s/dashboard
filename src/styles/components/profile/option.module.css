@@ -1,0 +1,27 @@
+.option_single {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  width: 125px;
+  height: 120px;
+  flex-shrink: 0;
+}
+.option_icon {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+}
+.option_dashboard {
+  text-transform: capitalize;
+  color: var(--grey-blue-80, #adb8cc);
+  text-align: center;
+
+  /* Bold 12 */
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 166.667% */
+}

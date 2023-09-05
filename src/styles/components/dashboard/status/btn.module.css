@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px 4px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 2px solid var(--grey-blue-97, #f5f6f7);
+  background: var(--white, #fff);
+
+  /* Shadows/Gray Blue/3%/5b */
+  box-shadow: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
+}

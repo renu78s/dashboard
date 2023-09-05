@@ -1,0 +1,15 @@
+.notification {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background: url('../../../assets/images/person1.png'),
+    lightgray 50% / cover no-repeat;
+  border-radius: 50px;
+  background-color: rgba(255, 102, 51, 0.3);
+}
+
+.notification_dot_icon {
+  position: absolute;
+  bottom: 25px;
+  left: 30px;
+}

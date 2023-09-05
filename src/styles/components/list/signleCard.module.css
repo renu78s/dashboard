@@ -1,0 +1,11 @@
+.container {
+  padding: 15px;
+  width: 230px;
+  height: 75px;
+
+  border-radius: 5px;
+  background: var(--white, #fff);
+
+  /* Shadows/Gray Blue/3%/5b */
+  box-shadow: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
+}

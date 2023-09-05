@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-bottom: 26px;
+  width: 110px;
+}
+.container_blue {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-bottom: 26px;
+  width: 110px;
+  border-bottom: 2px solid #3361ff;
+  border-radius: 1px;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+}
+.title {
+  color: var(--grey-blue-70, #7d8fb3);
+  text-align: center;
+
+  /* Bold 12 */
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 166.667% */
+  text-transform: capitalize;
+}
+.title_blue {
+  color: #3361ff;
+  text-align: center;
+
+  /* Bold 12 */
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 166.667% */
+  text-transform: capitalize;
+}

@@ -1,0 +1,27 @@
+.sub_content {
+  margin-left: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 10px;
+  flex-basis: 144px;
+  margin-bottom: 15px;
+}
+.image {
+  width: 30px;
+  height: 30px;
+  background: url('../../../../assets/icons/details/Image.png'),
+    lightgray 50% / cover no-repeat;
+  background-color: rgba(136, 51, 255, 0.3);
+  border-radius: 50%;
+}
+.sub_text {
+  color: var(--grey-blue-50, #4d5e80);
+
+  /* Bold 12 */
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 166.667% */
+}
